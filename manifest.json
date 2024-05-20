@@ -1,0 +1,17 @@
+{
+    "manifest_version": 3,
+    "name": "test_extension",
+    "version": "0.0.1",
+    "description": "learning something new",
+    "author": "xschroeder71@gmail.com",
+
+    "action": {
+        "default_icon": "128.png",
+        "default_popup": "popup.html"
+      },
+    "icons": {
+        "16": "128.png",
+        "48": "128.png",
+        "128": "128.png"
+      }
+}
