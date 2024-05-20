@@ -1,1 +1,2 @@
-alert('Hello Popup!');
+alert('Hello Popup!')
+console.log(this)
