@@ -6,3 +6,11 @@ chrome.runtime.onInstalled.addListener(() => {
         url: 'https://jaquiavas.github.io/XanderSchroederWeb/'
     })
 })
+
+
+chrome.runtime.onMessage.addListener((request, sender, sendResponse) => {
+    console.log(request)
+    console.log(sender)
+    console.log(sendResponse)
+    sendResponse({farewell: 'goodbye'})
+})
